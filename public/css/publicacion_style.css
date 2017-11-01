@@ -1,0 +1,159 @@
+#contenedorPublicaciones {
+	margin-bottom: 10%;
+}
+
+.publicacion {
+	padding: 0%;
+	background: white;
+	box-shadow: 1px 1px 4px #c8c8c8;
+}
+
+.publicacion-info {
+	padding: 2%;
+}
+
+.publicacion-info .izq {
+	padding: 0;
+}
+
+.publicacion-contenido {
+	padding: 0;
+}
+
+.publicacion-contenido div {
+	padding: 0;
+}
+
+.publicacion-texto p {
+	padding: 2%;
+}
+
+.publicacion-img {
+	padding: 0;
+	margin: 0;
+}
+
+.publicacion .izq {
+	padding: 0;
+}
+
+.publicacion .izq img {
+	margin: 0;
+	padding: 0;
+}
+
+.name-date {
+	margin-bottom: 1%;
+}
+
+.date-post {
+	text-align: right;
+}
+
+.boton-megusta {
+	height: 10px;
+	border: solid 2px #f6f6f6;
+	padding-left: 10%;
+	text-align: center;
+	cursor: pointer;
+	box-shadow: none;
+	outline: none !important;
+	-webkit-transition: ease 0.2s;
+	transition: ease 0.2s;
+}
+
+.hacer-comentario {
+	padding: 2% 1%;
+	margin: 0;
+	left: 0;
+	top: 0;
+	border: solid 2px #f6f6f6;
+	box-shadow: none;
+}
+
+.entrada-comentario {
+	border-radius: 20px;
+	box-shadow: none;
+	border: none;
+	background: #f6f6f6;
+	padding: 10px 20px;
+	font-size: 12pt;
+	margin: 0;
+}
+
+.envia-comentario {
+	background: white;
+	font-family: 'Montserrat', sans-serif;
+	color: #ff6666;
+	font-size: 10pt;
+	font-style: normal;
+	font-weight: bold;
+	padding: 10px 10px;
+	margin: 0;
+	border: none;
+	border-radius: none;
+	cursor: pointer;
+}
+
+.comentario {
+	position: relative;
+	-webkit-animation: animatetop ease;
+	-webkit-animation-duration: 0.8s;
+	animation: a ease;
+	animation-duration: 0.8s
+}
+
+
+/* Add Animation */
+
+@-webkit-keyframes a {
+	from {
+	
+		opacity: 0
+	}
+	to {
+	
+		opacity: 1
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	#contenedorPublicaciones {
+		margin-left: 4.15%;
+		margin-top: 10%;
+		margin-bottom: 20%;
+	}
+	.publicacion {
+		margin-top: 2%;
+	}
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1199px) {
+	#contenedorPublicaciones {
+		margin-left: 25%;
+		margin-top: 10%;
+	}
+	.publicacion {
+		margin-top: 2%;
+	}
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1699px) {
+	#contenedorPublicaciones {
+		margin-left: 33.33%;
+		margin-top: 8%;
+	}
+	.publicacion {
+		margin-top: 1%;
+	}
+}
+
+@media only screen and (min-width: 1700px) {
+	#contenedorPublicaciones {
+		margin-left: 33.33%;
+		margin-top: 6%;
+	}
+	.publicacion {
+		margin-top: 2%;
+	}
+}

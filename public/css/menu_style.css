@@ -1,0 +1,139 @@
+header {
+	background-color: #f6f6f6;
+	box-shadow: 1px 1px 4px #c8c8c8;
+	padding: 0;
+	padding-top: 2%;
+	margin: 0;
+	overflow: hidden;
+	z-index: 2;
+	position: fixed;
+}
+
+#contenedor-menu {
+	margin: 0;
+	padding: 0;
+}
+
+#logo-inicio {
+	text-align: center;
+	font-size: 28px;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+
+#infoDeUsuario {
+	margin-top: 1%;
+}
+
+#infoDeUsuario h2 {
+	text-align: left;
+}
+
+#logout {
+	color: #ff6666;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 11pt;
+	font-style: normal;
+	font-weight: bold;
+	padding: 2%;
+	margin: 0;
+	background: none;
+	border: none;
+	cursor: pointer;
+	outline: none !important;
+	text-align: center;
+}
+
+#pc ul {
+	display: inline-block;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	top: 0;
+}
+
+#pc li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	height: auto;
+	text-align: center;
+}
+
+#pc {
+	display: block;
+}
+
+#movil {
+	display: none;
+}
+
+@media only screen and (max-width: 700px) {
+	/*s*/
+	#pc {
+		display: none;
+	}
+	#movil {
+		display: block;
+		overflow: hidden;
+		z-index: 2;
+		position: fixed;
+		bottom: 0;
+		background-color: #f6f6f6;
+		box-shadow: 1px -2px 4px #c8c8c8;
+		padding: 0;
+	}
+	#movil ul {
+		margin-top: 1%;
+		margin-bottom: 1%;
+	}
+	#movil ul li {
+		text-align: center;
+	}
+	#logo-inicio {
+		text-align: center;
+	}
+	.boton-menu:hover {
+		height: 28px;
+	}
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1199px) {
+	/*m*/
+	#infoDeUsuario {
+		margin-left: 16.66%;
+	}
+	#contenedor-menu {
+		margin-left: 16.66%;
+	}
+	#pc {
+		display: block;
+	}
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1699px) {
+	/*l*/
+	#infoDeUsuario {
+		margin-left: 25%;
+	}
+	#contenedor-menu {
+		margin-left: 25%;
+	}
+	#pc {
+		display: block;
+	}
+}
+
+@media only screen and (min-width: 1700px) {
+	/**/
+	#infoDeUsuario {
+		margin-left: 25%;
+	}
+	#contenedor-menu {
+		margin-left: 25%;
+	}
+	#pc {
+		display: block;
+	}
+}

@@ -1,0 +1,154 @@
+/*
+Este codigo abaca el estilo de la pagina de ingreso
+*/
+
+#pag-ingreso {
+	margin-top: 5%;
+}
+
+aside {}
+
+#copy {
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+
+#pag-ingreso button {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 11pt;
+	font-style: normal;
+	font-weight: lighter;
+	color: white;
+	padding: 14px 20px;
+	margin: 0;
+	margin-top: 5%;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	height: 50px;
+	box-shadow: 1px 1px 4px #c8c8c8;
+}
+
+form {
+	margin-bottom: 0;
+	height: auto;
+}
+
+#ingreso-btn {
+	background: #ff6666;
+	color: white;
+	margin-bottom: 30%
+}
+
+#registrarme {
+	background: #ff6666;
+	color: white;
+	margin-bottom: 30%
+}
+
+#registro-btn {
+	background: #343950;
+	color: white;
+	margin-bottom: 30%
+}
+
+#ir-registro {
+	background: #343950;
+	color: white;
+	margin-bottom: 10%;
+}
+
+#ingreso {
+	display: block;
+}
+
+#registro {
+	display: block;
+}
+
+#formulario input[type=text],
+input[type=password],
+input[type=email] {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10pt;
+	height: 50px;
+	padding-left: 5%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	display: inline-block;
+	border: none;
+	border-radius: 5px;
+	color: #919191;
+	box-shadow: 1px 1px 4px #c8c8c8;
+}
+
+select {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 11pt;
+	height: 50px;
+	padding-left: 5%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	display: inline-block;
+	border: none;
+	border-radius: 5px;
+	color: #919191;
+}
+
+a {
+	text-align: center;
+}
+
+.app {
+	text-align: center;
+	max-width: 150px;
+}
+
+img {
+	width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+	/* s */
+	#pag-ingreso {
+		margin-top: 1%;
+	}
+	#portada img {
+		display: none;
+	}
+	#formulario {
+		padding-top: 2%;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+	span {
+		margin-top: 10%;
+		margin-bottom: 10%;
+	}
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1199px) {
+	/* m */
+	#formulario {
+		padding: 5%;
+	}
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1699px) {
+	/* l */
+	#pag-ingreso {
+		margin-left: 8%;
+	}
+	#menu-admi {
+		margin-left: 16.66%;
+	}
+}
+
+@media only screen and (min-width: 1700px) {
+	#pag-ingreso {
+		margin-left: 16%;
+	}
+	#menu-admi {
+		margin-left: 16.66%;
+	}
+}

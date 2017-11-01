@@ -1,0 +1,73 @@
+/*================== Colores*/
+ .on {
+    fill: #f66161;
+}
+.off {
+    fill: #c8c8c8;
+}
+/*========================*/
+ .btn-menu {
+    padding:0;
+    margin:0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none !important;
+}
+.btn-menu svg {
+    width: 25px;
+    height: 25px;
+    -webkit-transition: ease 0.2s;
+    transition: ease 0.2s;
+}
+
+.btn-comentario{
+    padding:0;
+    margin:0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none !important;
+}
+.btn-comentario svg{
+    width: 20px;
+    height: 20px;
+}
+
+.btn-like-coment{
+	padding:0;
+    margin:0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none !important;
+}
+.btn-like-coment svg{
+	width: 18px;
+    height: 18px;
+	
+}
+.btn-like-coment svg g path{
+	 
+}
+
+@media only screen and (max-width: 700px) {
+}
+@media only screen and (min-width: 701px) and (max-width: 1199px) {
+    .btn-menu svg:hover {
+        width: 35px;
+        height: 35px;
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1699px) {
+    .btn-menu svg:hover {
+        width: 35px;
+        height: 35px;
+    }
+}
+@media only screen and (min-width: 1700px) {
+    .btn-menu svg:hover {
+        width: 35px;
+        height: 35px;
+    }
+}

@@ -1,0 +1,23 @@
+{
+	"name": "servidor",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "jose",
+	"license": "ISC",
+	"dependencies": {
+		"assert": "^1.4.1",
+		"body-parser": "^1.18.2",
+		"express": "^4.16.2",
+		"express-fileupload": "^0.3.0",
+		"mongodb": "^2.2.33",
+		"objectid": "^3.2.1",
+		"update-mongo": "0.0.4",
+		"whatwg-fetch": "^2.0.3"
+	},
+	"devDependencies": {}
+}

@@ -1,0 +1,65 @@
+/*estilo general de la pagina*/
+ body {
+    font-family:'Montserrat', sans-serif;
+    background: #f6f6f6;
+}
+h1 {
+    font-family:'Pacifico', cursive;
+    color: #ff6666;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40pt;
+    text-align: center;
+}
+h2 {
+    font-family:'Montserrat', sans-serif;
+    color: #ff6666;
+    font-size: 12pt;
+    font-style: normal;
+    font-weight: bold;
+}
+h3 {
+    font-family:'Montserrat', sans-serif;
+    color: #343950;
+    font-size: 11pt;
+    font-style: normal;
+    font-weight: bold;
+}
+h4 {
+    font-family:'Montserrat', sans-serif;
+    color: #343950;
+    font-size: 10pt;
+    font-style: normal;
+    font-weight: bold;
+}
+p {
+    font-family:'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10pt;
+    color: #919191;
+}
+li {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    font-size: 12pt;
+    font-style: normal;
+    font-weight: normal;
+    color: #343950;
+}
+span {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    font-size: 12pt;
+    font-style: normal;
+    font-weight: normal;
+    color: #c3c3c3;
+}
+footer {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
