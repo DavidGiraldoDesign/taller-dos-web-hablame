@@ -17,7 +17,7 @@ app.use(bodyparser.json());
 
 //================================================
 
-var url = 'mongodb://josedavidgm1995:Lespaul#1952@clusterdesign-shard-00-00-kmsdl.mongodb.net:27017,clusterdesign-shard-00-01-kmsdl.mongodb.net:27017,clusterdesign-shard-00-02-kmsdl.mongodb.net:27017/redsocial?ssl=true&replicaSet=ClusterDesign-shard-0&authSource=admin';
+var url = "<YOUR MONGODB CLUSTER>";
 
 var mongoClient = mongo.MongoClient;
 
